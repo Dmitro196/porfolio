@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">	
+<link href="https://fonts.googleapis.com/css?family=Yrsa" rel="stylesheet">
+	<meta charset="UTF-8" />
+		 <style>
+		 
+		 body
+		 {transition:all 1s;
+		 background-color:#FCFFFC;}
+		 .blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+	 
+    padding: .5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: .1em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+}
+blockquote p {
+    display: inline;
+}
+img.polaroid {  
+    background:#000; /*Смените его на фоновое изображение или удалите*/  
+    border:solid #fff;  
+    border-width:6px 6px 24px 6px;  
+    box-shadow:1px 1px 5px #333; /* Стандартное размытие на 5px. Для пущей глубины увеличьте его */  
+    -webkit-box-shadow:1px 1px 5px #333;  
+    -moz-box-shadow:1px 1px 5px #333;  
+    height:200px; /* Установите на высоту своего изображения или нужного div’а*/  
+    width:200px; /* Установите на ширину своего изображения или нужного div’а */ 
+transition:all 2.5s;	
+}
+img.polaroid:hover
+{ 
+ 
+  transform: rotate3d(1, 1.5, -0.5, 30deg);
+  filter:sepia(100);
+      border:solid #fff;  
+    border-width:6px 6px 20px 6px;  
+ z-index:1000;
+}
+.photo
+{
+ 
+ margin:10px;
+
+}
+
+
+
+#content
+{
+ 
+margin:0% 5%;
+transition:all 0.5s;
+ position:relative;
+ z-index:20;
+ margin-bottom:60px;
+}
+ #gallery
+  {width:100%;
+  height:100%;
+  padding-bottom:0;
+  margin-bottom:0;
+  position:relative;
+  
+  }
+#footer
+{width:100%;
+height:50px;
+background-color: rgba(146, 201, 189, 0.9);
+position:fixed;
+bottom:0;
+left:0;
+opacity:0.2;
+z-index:1;
+}
+#footer:hover
+{opacity:1;
+z-index:1000;}
+
+#footer ul
+{
+
+position:absolute;
+right:5%;
+list-style:none;
+}
+#footer ul li
+{
+	width:50px;
+	height:50px;
+ float:left;
+ margin-right:10px;
+}
+#footer ul li a
+{
+ color:#fff;
+ font-size:1.15em;
+ transition:all 1s;
+}
+
+#footer ul li a:hover
+{
+color:coral;
+}
+
+
+
+
+
+
+ #menubutton
+ {
+ 
+ width:50px;
+ height:50px;
+/* background-color: rgba(121, 168, 143, 0.9);*/
+background-color: rgba(128, 127, 132, 0.6);
+
+ position:fixed;
+ transition:all 0.3s;
+box-shadow: inset 0 0 20px  rgba(0,0,0,0.2); /* Параметры тени */
+ z-index:1000;}
+  
+ #menubutton p{color:#fff;
+ text-align:center;
+ margin-top:25%;
+ font-size:1.5em;
+ }
+ 
+ 
+ #menubutton:hover
+ {
+ 
+ width:14%;
+ height:80%;
+/* background-color: rgba(121, 168, 143, 0.9);*/
+ background-color: rgba(128, 127, 132, 0.6);
+ position:fixed;
+ 
+ }
+ #menubutton:hover p
+ {opacity:0.9;
+ margin-top:10%;
+ transition:all 1s;}
+  #menubutton:hover ~#content
+ {padding-left:10%;
+ padding-right:0%;}
+ 
+ #menubutton ul
+ {
+	display:none;
+	position:absolute;
+	color:#fff;
+	margin:5% auto;
+	padding:0;
+
+	list-style:none;
+	
+width:90%;
+ height:80%;
+ position:relative;
+ border:1px solid #fff;
+ 
+
+ } 
+ #menubutton:hover ul
+ {
+ 
+ display:block;}
+ #menubutton ul li p
+ {
+ color:#fffff0;
+ position:relative;
+ padding-top:3px;
+ font-size:1.3em;
+ text-align:center;
+ 
+ 
+ 
+  padding-top:0;
+  padding-bottom:0;
+ margin:auto;
+ }
+ #menubutton ul li:hover p
+ { color:red;
+  
+ }
+#menubutton ul li hr
+ {
+ position:relative;
+  top:3px;
+  padding-top:0;
+  padding-bottom:0;
+  margin:auto;
+ width:80%;
+ }
+ #menubutton ul li a
+ {
+ text-decoration:none;
+ }
+ #content h1
+ {
+ 
+ text-align:center;
+ margin-top:0%;
+ margin-bottom:0;
+ padding-bottom:3px;
+ 
+ 
+ font-size:3.5em;
+ font-family: 'Shadows Into Light', cursive;
+ letter-spacing:0.35em;
+ }
+ 
+  #content h2
+ {
+ 
+ text-align:center;
+ margin-top:0%;
+ font-size:3.5em;
+ font-family: 'Lobster Two', cursive;
+ font-weight:100;
+  letter-spacing:0.15em;
+}
+
+#content hr
+{position:relative;
+  top:0px;
+
+  
+  margin:auto;
+    margin-top:10px;
+	margin-bottom:10px;
+ width:80%;}
+ 
+ #content p
+ {font-size:1.75em;
+ font-family: 'Yrsa', serif;
+ font-weight:400;}
+ 
+ 
+ @media screen and (max-width:980px)
+{
+body{ font-size:16px;}
+ 
+				margin-right:0px;
+			}
+			#footer
+			{opacity:0.05;}
+			
+			.blockquote
+			{margin-left:10%;}
+			#content
+			{
+		
+			float:left;
+			 
+			margin-right:0%;
+			 
+			
+			}
+			#gallery
+			{
+			
+			 
+			width:90%;
+			margin-left:10%;
+			}
+			.photo
+			{
+			
+			margin:10px;
+			
+			
+			}
+			
+}
+		 </style>
+		 
+		<script>
+ 
+</script>
+	</head>
+	<body>
+	 
+	<div id="menubutton">
+	
+	 <p><i class="fa fa-navicon fa-lg"></i></p> 
+	 <ul>
+		<li><a href="../starnight/index.html"><p>One</p></a></li>
+		<li><hr class="line"></li> 
+		<li><a href="#"><p>Two</p></a></li>
+		<li><hr class="line"></li> 
+		<li><a href="#"><p>Three</p></a></li>
+		<li><hr class="line"></li> 
+		<li><a href="#"><p>Four</p></a></li>
+		<li><hr class="line"></li> 
+	<li><a href="#"><p>Five</p></a></li>
+		<li><hr class="line"></li> 
+		<li><a href="#"><p>Six</p></a></li>
+		<li><hr class="line"></li> 
+		<li><a href="#"><p>Seven</p></a></li>
+		<li><hr class="line"></li> 
+	 </ul>
+	   
+	</div>
+	 
+	 
+	
+	
+	
+	
+	<div id="content">
+	<h1>M.a.i.n. p.a.g.e.</h1>
+ <hr> 
+	 <h2>Gallery</h2>
+	
+	  <div id="gallery"> 
+	 <a href="https://www.google.com.ua"><img src="img/16.jpg" title="16.jpg" class="polaroid photo" ></a>
+	<a href="img/17.jpg"> <img  src="img/17.jpg" title="16.jpg" class="polaroid  photo"></a>
+	<img src="img/18.jpg" title="18.jpg" class="polaroid  photo">
+	<img src="img/19.jpg" title="19.jpg" class="polaroid  photo">
+	<img src="img/31.jpg" title="31.jpg" class="polaroid  photo">
+	
+	<img src="img/1.jpg" title="1.jpg" class="polaroid photo">
+	<img src="img/6.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/11.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/8.jpg" title="8.jpg" class="polaroid  photo">
+	<img src="img/23.jpg" title="23.jpg" class="polaroid  photo">
+	
+	 <img src="img/5.jpg" title="5.jpg" class="polaroid  photo">
+	<img src="img/24.jpg" title="24.jpg" class="polaroid photo">
+	<img src="img/32.jpg" title="32.jpg" class="polaroid photo">
+	<img src="img/15.jpg" title="15.jpg" class="polaroid photo">
+	<img src="img/14.jpg" title="14.jpg" class="polaroid photo">   
+	
+	 <img src="img/35.jpg" title="35.jpg" class="polaroid  photo">
+	<img src="img/36.jpg" title="36.jpg" class="polaroid photo">
+	<img src="img/37.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/38.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/39.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/40.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/41.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/42.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/43.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/44.jpg" title="23.jpg" class="polaroid photo">  
+	
+	
+	 <img src="img/45.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/46.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/47.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/48.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/49.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/50.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/51.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/52.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/53.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/54.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/55.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/56.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/57.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/58.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/59.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/60.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/2.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/62.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/63.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/64.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/65.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/66.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/67.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/68.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/69.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/70.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/71.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/72.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/73.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/74.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/75.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/76.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/77.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/78.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/79.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/80.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/81.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/82.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/83.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/84.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/85.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/86.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/87.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/88.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/89.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/90.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/91.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/92.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/93.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/94.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/95.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/96.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/97.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/98.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/99.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/100.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/101.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/102.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/103.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/104.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/105.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/106.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/107.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/108.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/109.jpg" title="23.jpg" class="polaroid photo">  
+	
+	<img src="img/110.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/111.jpg" title="6.jpg" class="polaroid photo">
+	<img src="img/112.jpg" title="11.jpg" class="polaroid photo">
+	<img src="img/113.jpg" title="8.jpg" class="polaroid photo">
+	<img src="img/114.jpg" title="23.jpg" class="polaroid photo">  
+	
+	 <img src="img/115.jpg" title="1.jpg" class="polaroid  photo">
+	<img src="img/8.jpg" title="6.jpg" class="polaroid photo">
+ 
+ 
+	</div>
+	
+	
+	 <p class="blockquote">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> 
+ 	
+	
+	</div><!---end Content-->
+	
+	<div id="footer">
+			<ul>
+					<li>
+						<a href="#">
+							<i class="fa fa-vk fa-lg"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fa fa-facebook fa-lg"></i>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#">
+							<i class="fa fa-envelope fa-lg"></i>
+						</a>
+					</li>
+			</ul>
+	</div>
+	</body>
+</html>

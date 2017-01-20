@@ -1,0 +1,279 @@
+   .block6
+	 {
+	
+	 
+ z-index:500;
+   position:relative;
+	width:100%;
+ height:600px;
+	 
+	min-height:600px;
+ background-color:#fff;
+ 
+	background-size:cover;z-index:0;
+	 
+ 
+   z-index:500;
+	 }
+	 
+	 
+	 
+	 
+	 
+	  .clients
+   {background-color:#fff;
+   width:80%;
+   height:800px;
+   margin:5px;
+   margin-top: 0px;
+   margin-left:10%;
+  top:-100px;
+   border:0px solid red;
+   position:absolute;
+    outline:0px solid rgba(255,0,125,1);
+    outline-offset: -1px;}
+	 
+	 
+	 .companies
+	 {
+	 
+	 width:100%;
+	height:150px;
+ 
+	   border:0px solid red;
+	 outline:3px solid rgba(125,125,50,0);
+    outline-offset: -1px;
+	 position:relative;
+	 top:0;
+	 }
+	 
+	 .clients h2
+	 {
+	  font-family: 'Times New Roman', Times, serif;
+	  color:#777;
+	  font-size:48px;
+	  text-align:center;
+	  padding-top:50px;
+	 
+	 }
+	 
+	  .clients span
+	  {color:#e83a93;}
+	
+
+ 
+ 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 .person
+	 {
+	 position:relative;
+	 width:25%;
+	 height:300px;
+	   border:0px solid red;
+	 outline:0px solid rgba(205,125,50,1);
+    outline-offset: -1px;
+	margin-top:100px;
+	float:left;
+	
+	 }
+	 .person h3
+	 {
+	 color:#e83a93;
+	 text-align:center;
+	 padding-top:50px;
+	 font-size:24px;
+	 }
+	 .photo
+	 {  
+	position:relative;
+	width:12vw;
+	height:12vw;
+	transform:rotate(45deg);
+	left:4vw;
+	transition:all 0.5s;
+	
+	background-size:cover;
+	}
+	#person1
+	{background-image:url(../img/Person1.png);}
+	#person2
+	{background-image:url(../img/Person1.png);}
+	#person3
+	{background-image:url(../img/Person1.png);}
+	#person4
+	{background-image:url(../img/Person1.png);}
+	
+	
+	.photo:hover
+	{
+		 outline:5px solid #e83a93;
+	
+	}
+	
+	
+	 .photo a
+	 {
+	 width:12vw;
+	 height:12vw;
+ 
+	 position:absolute;
+	 text-indent:100px;
+	 overflow-x:hidden;
+	 }
+	 .photo a p
+	 { display:none; }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 /*sliderstyle begin*/
+#sliderProff-wrap{ /* Оболочка слайдера и кнопок */
+		width:100%;
+   height:100%;
+ 
+ 
+   float:right;
+ 
+	}
+#sliderProff{ /* Оболочка слайдера */
+	width:100%;
+	height:100%;
+	overflow: none;
+  
+	position:relative;}
+#sliderProff .slideProf{ /* Слайд */
+	width:100%;
+	height:100%;
+	background-size:cover;
+	}
+	
+.sli-links{ /* Кнопки смены слайдов */
+	margin-top:0px;
+	text-align:center;}
+ 
+#prewbuttonProff, #nextbuttonProff{ /* Ссылка "Следующий" и "Педыдущий" */
+	display:block;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:0;
+	overflow:none;
+	text-indent:-999px;
+ 
+	opacity:1;
+	z-index:3;
+	
+	
+	
+	outline:none !important;}
+#prewbuttonProff{left:0px;
+background-image:url(../img/leftArrow.png);
+
+transform:rotate(-45deg);
+top:50px;
+left:-50px;
+}
+#nextbuttonProff{
+	right:0px;
+ 
+	 
+	background-image:url(../img/rightArrow.png);
+	transform:rotate(45deg);
+top:50px;
+right:-50px;
+	}
+#prewbuttonProff:hover, #nextbuttonProff:hover{
+	opacity:1;}
+	/*sliderstyle end*/
+	
+	.SliderforProffesion
+	{
+	
+	width:100%;
+	height:100%;
+ 
+	position:relative;
+	margin:0 auto;
+	}
+	
+	
+	
+	/*-------------------------*/
+	  
+	 /*-------------------------*/
+	 #Proffslide1
+	 {
+	 width:100%;
+	 height:100%;
+	 background-image:url(../img/001.jpg);
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 
+	 }
+	 #Proffslide2
+	 {
+	 width:100%;
+	 height:100%;
+ 
+	 background-size:cover;
+	 background-repeat:no-repeat;
+	 
+	 }
+	#graphicriver
+	{
+	position:relative;
+	margin:0;
+	margin-left:15%;
+	padding:0;
+	 width:88px;
+	 height:108px;
+	 background-image:url(../img/graphicriver.png);
+	float:left;
+	}
+	#docean
+	{ 
+	position:relative;
+	margin:0;
+	margin-left:15%;
+		margin-top:-10px;
+	padding:0;
+	 width:75px;
+	 height:102px;
+	 background-image:url(../img/3docean.png);
+	float:left;
+	}
+	#themeforest
+	{
+	position:relative;
+	margin:0;
+	margin-left:15%;
+	margin-top:-20px;
+	padding:0;
+	 width:75px;
+	 height:104px;
+	 background-image:url(../img/themeforest.png);
+	float:left;
+	}
+	#audiojungle
+	{
+	position:relative;
+	margin:0;
+	margin-left:15%;
+	padding:0;
+	 width:75px;
+	 height:102px;
+	 background-image:url(../img/audiojungle.png);
+	float:left;
+	}

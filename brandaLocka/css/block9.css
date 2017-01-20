@@ -1,0 +1,175 @@
+ .block9
+	 {
+	
+	 
+  z-index:10;
+   position:relative;
+	width:100%;
+	height:auto;
+	min-height:600px;
+ background-color:#eee;
+ 
+	background-size:cover;z-index:0;
+	
+	 }
+	 
+	  .block9 h3
+	 {
+	 padding:0;
+	 margin:0;
+	 padding-top:80px;
+	 color:#777;
+	 font-size:48px;
+	 font-family: 'Times New Roman', Times, serif;
+	 text-align:center;
+	 
+	 }
+	 .block9 h3 span
+	 {
+	  color:#e83a93;
+	 }
+	 .block8 .forScills
+	 {
+	 width:95%;
+	 margin-left:5%;
+		height:auto;
+		overflow:auto;
+ 
+	 }
+	 
+	 .block9 .ForOffers
+	 {width:90%;
+	 margin-left:10%;
+	 height:auto;
+	 outline:0px solid red;
+	 
+	 position:relative;
+	 margin-top:180px;
+	 overflow:auto;
+	 
+	 
+	 
+	 bottom:100px;
+	 }
+	 .block9 .ForOffers .Offers
+	 {
+	 width:300px;
+	 height:400px;
+	 outline:0px solid black;
+	 background-color:#fff;
+	 position:relative;
+	 margin-top:120px;
+	 float:left;
+	 margin-right:6vw;
+	 bottom:100px;
+	 }
+	 
+	  
+	 
+	 .block9 .ForOffers .Offers .title
+	 {
+	 margin:0;
+	 padding:0;
+	 margin-top:25px;
+	 font-size:28px;
+	 color:#777;}
+	 .block9 .ForOffers .Offers .price
+	 {
+	 margin:0;
+	 padding:0;
+	 margin-top:40px;
+	 font-size:58px;
+	 color:#777;
+	 font-weight:100;}
+	 
+	 
+	.block9 .ForOffers .Offers p
+	 {
+	
+	 margin:0;
+	 padding:0;
+	 margin-top:20px;
+	 font-size:22px;
+	 color:#777;
+	 font-weight:100;
+	 text-align:center;
+	 margin-left:10%;
+	 margin-right:10%;
+	 }
+	  .block9 .ForOffers .offsetButton
+	  {
+	  margin:0;
+	  padding:0;
+	  position:absolute;
+	  bottom:-30px;
+	  
+	  width:150px;
+	  height:50px;
+	  background-color:#555;
+	  margin-left:25%;
+	  transition:all 1s;
+	  }
+	  .block9 .ForOffers .Offers:hover .offsetButton 
+	  {
+	   background-color:#e83a93;
+	  
+	  }
+	     .block9 .ForOffers .Offers h3
+		 {
+		 transition:all 1s;
+		 }
+	   .block9 .ForOffers .Offers:hover h3
+	  {
+	    color:#e83a93;
+	  
+	  }
+	    
+	    .block9 .ForOffers .offsetButton a
+	  {
+	
+	   
+	  width:100%;
+	  height:100%;
+	  position:absolute;
+	   text-decoration:none;
+	    
+	  }
+	     .block9 .ForOffers .offsetButton a p
+	  {
+	    color:red;
+		margin:0;
+		padding:0;
+		font-size:24px;
+		color:white;
+		
+		margin-top:10px;
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+	   .line 
+	 {
+  width: 80%;
+  
+  line-height: 30px;
+  background-size: 80% 30px;
+  background-color: white;
+  background-image: -webkit-linear-gradient(#aaa 1px, transparent 1px);
+  background-image: linear-gradient(#aaa 1px, transparent 1px);
+  position: relative;
+  text-align: center;
+}
+ 
+.line::before 
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background-color: white;
+}

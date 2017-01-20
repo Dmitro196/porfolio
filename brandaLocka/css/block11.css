@@ -1,0 +1,111 @@
+ .block11
+	 {
+	
+	 
+  z-index:10;
+   position:relative;
+	width:100%;
+	height:auto;
+	background-color:#fff;
+ 
+	background-size:cover;z-index:0;
+	
+	 }
+	 .block11 h3
+	 {
+	  padding:0;
+	 margin:0;
+	 padding-top:80px;
+	 color:#777;
+	 font-size:48px;
+	 font-family: 'Times New Roman', Times, serif;
+	 text-align:center;
+	 font-weight:100;
+	 color: #777;
+	 }
+	 .block11 h3 span
+	 {
+	  color:#e83a93;
+	 }
+	 
+	 
+	  .block11 p
+	 {
+	 padding:0;
+	 margin:0;
+	 padding-top:60px;
+	 color:#777;
+	 font-size:24px;
+	 font-family: 'Times New Roman', Times, serif;
+	 text-align:center;
+	 font-weight:100;
+ 
+	 }
+	 .block11 p span
+	 {
+	  color:#e83a93;
+	 }
+	 
+	 .block11 form
+	 {
+	 
+	 
+	 }
+	 table 
+	 {border:0px solid black;
+	 margin-top:50px;
+	  padding-bottom:100px;
+	 width:100%;
+	 }
+	 
+	table tr td 
+	{width:50%;
+	 padding-bottom:30px;}
+	
+	input
+	{width:100%;
+	height:70px;
+	background-color:#eee;
+	border:none;
+	 font-size:3vw;
+text-indent:1vw;
+	}
+	 
+	 
+	
+	 table tr td
+	 {border:0px solid black;}
+	 
+	  
+	 textarea {
+    
+    resize: none; /* ????????? ???????? ?????? */
+	width:100%;
+	height:100%;
+	 font-family: 'Times New Roman', Times, serif;
+	 color:#000;
+	 font-size:3vw;
+ border:none;
+	
+	background-color:#eee;
+ 
+   } 
+   .block11 table button
+   {background-color:#e83a93;
+   width:150px;
+   height:60px;
+   margin:0 auto;
+   display:block;
+   border:none;
+   font-size:24px;
+   color:#fff;
+     font-family: 'Times New Roman', Times, serif;
+	 letter-spacing:2px;
+   }
+   
+   input:required {
+background-image:url(img/star.png);
+background-repeat:no-repeat;
+background-size:15px 15px;
+background-position:98% 10%;
+   }

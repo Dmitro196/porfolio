@@ -1,0 +1,134 @@
+ .block4
+	 {
+	
+	 
+ 
+   position:relative;
+	width:100%;
+	height:auto;
+	/min-height:800px;
+ background-color:#fff;
+	background-size:cover;z-index:0;
+	
+	 }
+	 
+	 
+	 	  .block4 h2
+	 { margin:0;
+ padding-top:80px;
+	 text-align:center;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size:48px;
+	 margin-left:5%;
+	margin-right:5%;
+	 color:#777777;
+	 }
+	  .block4 h3
+	 { margin:0;
+ padding-top:80px;
+	 text-align:center;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size:24px;
+	 margin-left:5%;
+	margin-right:5%;
+	 color:#777777;
+	 }
+	 .block3 span
+	 {
+	 color:#e83a93;
+	 }
+	  .block4 span
+	 {
+	 color:#e83a93;
+	 }
+	  .forinfo
+	  {
+	  margin-top:50px;
+	  position:relative;
+	   
+	  width:90%;
+	  margin-left:10%;
+	  padding-bottom:100px;
+	  height:auto;
+	  overflow:auto;
+	 
+	 
+	  }
+	  .infoblock
+	  {
+	 
+	  margin-top:50px;
+	   margin-right:6%;
+	  position:relative;
+	  float:left;
+	  width:300px;
+	  height:150px;
+	 
+	  }
+	  
+	  
+	  .foremblem
+	  {width:60px;
+	  height:60px;
+	  margin-top:15px;
+	  	  margin-left:15px;
+	  border:5px solid #eee;
+	  transform:rotate(45deg);
+	  transition:all 1.5s;
+	  }
+	   .foremblem:hover
+	   {border-color:#e83a93;}
+	  .emblem
+	  {width:30px;
+	  height:30px;
+  transform:rotate(-45deg);
+	   margin-top:15px;
+	     margin-left:15px;
+	 background-image:url(../img/BrandaLoka_06.png);
+	 background-size:contain;
+	 background-repeat:no-repeat;}
+	 
+	 #lineGraph
+	 { background-image:url(../img/lineGraph.png);}
+	  #View
+	 { background-image:url(../img/View.png);}
+	  #Pin
+	 { background-image:url(../img/pin.png);}
+	  #Bell
+	 { background-image:url(../img/Bell.png);}
+	 
+	  #Code
+	 { background-image:url(../img/code.png);}
+	 
+	  #cloud
+	 { background-image:url(../img/cloud.png);}
+	 
+	 
+	 
+	 .foremblem a
+	 {
+	 position:absolute;
+	 
+	 width:60px;
+	  height:60px;
+	  text-indent:100000px;
+	  overflow:hidden;
+	 }
+	 .infoblock h3
+	 {
+	 margin:0;
+	 padding:0;
+	 position:absolute;
+	 right:10px;
+	 top:10px;
+	 }
+	 .infoblock p
+	 {
+	 margin:0;
+	 padding:0;
+	 position:absolute;
+	 right:10px;
+	 top:50px;
+	 margin-left:40%;
+	 color:#777;
+	 }

@@ -1,0 +1,642 @@
+.block1
+  {
+
+	position:relative;
+	width:100%;
+	height:auto;
+	background-image:url(../img/background1.png);
+	background-size:cover;
+ 
+	
+ /* border-bottom:1px solid red;*/
+  }
+  .grid
+  {
+ 
+  position:relative;
+	 
+	width:40vw;
+	height:48vw;  
+	/*width:500px;
+	height:600px;*/
+	margin:0 auto;
+
+    border: 0px solid black;
+    outline: 0px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+	
+	
+	bottom:5vh;
+	transform:rotate(45deg);
+	 
+  }
+  .BigCell1
+  {
+    
+   position:absolute;
+	width:40%;
+	height:calc(100%/3);
+	bottom:0;
+	left:0;
+  
+   border: 0px solid black;
+    outline:0px solid red;
+    outline-offset: -1px;
+  }
+  .BigCell1 .line-left
+  {
+  position:absolute;
+	width:1px;
+	height:75%;
+	top:-75%;
+	left:-1px;
+ background-color:rgba(255,255,255,1);
+  
+  }
+  .BigCell1 .line-center
+  {
+  position:absolute;
+	width:1px;
+	height:115%;
+	top:0px;
+	left:50%;
+ background-color:#fff;
+  
+  }
+  
+  
+  .BigCell1 .cell1
+  {
+  position:absolute;
+	width:50%;
+	height:50%;
+	top:0;
+	left:0px;
+ 
+   border: 0px solid black;
+    outline: 1px solid #fff;
+    outline-offset: 0px;
+transition:all 2s;
+z-index:200;
+  }
+  
+   .BigCell1 .cell2
+  {
+  position:absolute;
+	width:50%;
+	height:100%;
+	bottom:0;
+	right:0px;
+ 
+   border: 0px solid black;
+    outline: 0px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  
+  }
+  .BigCell2
+  {
+   
+   position:absolute;
+		width:40%;
+	height:calc(100%/3);
+	bottom:0;
+	left:40%;
+  
+   border: 0px solid black;
+    outline: 0px solid orange;
+    outline-offset: -1px;
+  }
+  .BigCell2 .line-right
+  {
+  position:absolute;
+	width:1px;
+	height:42%;
+	bottom:12%;
+	right:0px;
+ background-color:rgba(255,255,255,1);
+ }
+  .BigCell2 .line-bottom
+  {
+  position:absolute;
+	width:73%;
+	height:1px;
+	bottom:0px;
+	left:0px;
+ background-color:rgba(255,255,255,1);
+ }
+  
+  .BigCell2 .cell1
+  {
+  position:absolute;
+	width:calc(50% - 2px);
+	height:calc(50% - 2px);
+	overflow:hidden;
+	top:0px;
+	left:0px;
+background-image:url(../img/imageforCell1.png);
+background-size:cover;
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  .BigCell2 .cell2
+  {
+  position:absolute;
+	width:calc(50% - 2px);
+	height:calc(50% - 2px);
+	bottom:0;
+	left:0px;
+ 
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  .BigCell2 .cell3
+  {
+  position:absolute;
+	width:calc(50% - 2px);
+	height:calc(50% - 2px);
+	top:0;
+	right:0px;
+ 
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  
+  .BigCell3
+  {
+    
+   position:absolute;
+		width:40%;
+	height:calc(100%/3);
+	bottom:calc(100%/3);
+	right:0;
+  
+   border: 0px solid black;
+    outline: 0px solid yellow;
+    outline-offset: -1px;
+  }
+  .BigCell3 .line-left
+  {
+  position:absolute;
+	width:1px;
+	height:33%;
+	bottom:0px;
+	left:-3px;
+ background-color:rgba(255,255,255,1);
+  
+  }
+  
+  .BigCell3 .line-centerToleft
+  {
+  position:absolute;
+	width:1px;
+	height:90%;
+	top:calc(0 - 3px);
+	left:calc(50% - 4px);
+ background-color:rgba(255,255,255,1);
+  
+  }
+  .BigCell3 .line-centerToright
+  {
+  position:absolute;
+	width:80%;
+	height:1px;
+	top:calc(50% - 3px);
+	right:calc(-80% + 2px);
+ background-color:rgba(255,255,255,1);
+  
+  }
+  
+   .BigCell3 .cell1
+  {
+  position:absolute;
+	width:calc(50% - 3px);
+	height:calc(50% - 3px);
+	top:0;
+	left:0px;
+ 
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  .BigCell3 .cell2
+  {
+  position:absolute;
+width:calc(50% - 2px);
+	height:calc(50% - 2px);
+	bottom:0;
+	right:2px;
+ background-image:url(../img/imageforCell2.png);
+background-size:cover;
+   border: 0px solid black;
+    outline: 1px solid white;
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  .BigCell3 .cell3
+  {
+  position:absolute;
+	width:calc(50% - 2px);
+	height:calc(50% - 2px);
+	top:0;
+	right:2px;
+  background-image:url(../img/imageforCell3.png);
+background-size:cover;
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+  transition:all 2s;
+  }
+  .BigCell4
+  {
+    
+   position:absolute;
+		width:40%;
+	height:calc(100%/3);
+	top:0;
+	left:40%;
+  
+	border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,0);
+    outline-offset: -1px;
+  }
+  .BigCell4 .line-right
+  {
+  position:absolute;
+	width:1px;
+	height:55%;
+	bottom:0px;
+	right:-1px;
+ background-color:rgba(255,255,255,1);
+ }
+ .BigCell4 .line-bottom
+  {
+  position:absolute;
+	width:50%;
+	height:1px;
+	bottom:-1px;
+	left:0px;
+ background-color:rgba(255,255,255,1);
+ }
+  .BigCell5
+  {
+   
+   position:absolute;
+		width:20%;
+	height:calc(100%/6);
+	bottom:calc(100%/3);
+	left:20%;
+  
+   border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+	transition:all 2s;
+  }
+  .miniicon
+  {
+   position:absolute;
+	width:20%;
+	height:20%;
+	 
+	
+	background-size:cover;
+	border: 0px solid black;
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: -1px;
+	transition:all 1s;
+  }
+  .dribble
+  {top:30%;
+  right:25%;}
+   .twitter
+  {
+  top:50%;
+  right:45%;
+  
+  }
+  .facebook
+  {
+  top:70%;
+  right:65%;
+  
+  }
+    .google
+  {
+  top:75%;
+  right:40%;
+  
+  }
+  
+    .skype
+  {
+  top:50%;
+  right:5%;
+  
+  }
+   .vimeo
+  {
+  top:70%;
+  right:5%;
+  
+  }
+  
+  .forminiicons
+  {
+  position:relative;
+ 
+  width:50%;
+  height:50%;
+top:25%;
+left:25%;
+  background-repeat:no-repeat;
+  background-size:contain;
+  
+  transform:rotate(-45deg);
+  transition:all 2s;
+  }
+ .dribble   .forminiicons
+  { background-image:url(../img/dribble.png);}
+   .vimeo   .forminiicons
+  { background-image:url(../img/vimeo.png);}
+   .google   .forminiicons
+  { background-image:url(../img/google.png);}
+ .facebook   .forminiicons
+  { background-image:url(../img/facebook.png);}
+ .twitter   .forminiicons
+  { background-image:url(../img/twitter.png);}
+ .skype   .forminiicons
+  { background-image:url(../img/skype.png);}
+  
+  
+  
+  
+  .tofooter
+  
+  {
+  width:2vw;
+  height:2vw;
+  position:relative;
+  
+  border:2px solid #fff;
+  border-radius:10%;
+  margin:0 auto;
+  margin-top:5vw;
+    bottom:5vw;
+ transform:rotate(-45deg);
+  }
+  .Square 
+  {
+  
+  width:3vw;
+  height:3vw;
+  position:relative;
+  
+  
+  background-color:#fff;
+  border-radius:10%;
+  margin:0 auto;
+   top:50%;
+   right:90%;
+   transition:all 0.5s;
+   }
+  
+  .Arrow
+  { width:1.5vw;
+  height:1.5vw;
+  position:absolute;
+  
+  border-bottom:2px solid #555;
+    border-left:2px solid #555;
+  border-radius:10%;
+ right:10%;
+ top:10%;
+  }
+  .Square  a
+  {
+  position:absolute;
+  width:100%;
+  height:100%;
+ 
+  overflow:hidden;
+ 
+  opacity:0;
+  z-index:200;
+  
+  }
+   .Square:hover  
+   {
+   box-shadow: 0 0 4px 1px  white;
+   
+   }
+    .Square:hover  .Arrow
+   {
+   border-color:#e83a93;
+   
+   }
+   /*----------------*/
+  
+  
+  
+  .BigCell1 .cell1:hover, .BigCell2 .cell2:hover,.BigCell2 .cell3:hover
+  ,.BigCell3 .cell1:hover 
+  {z-index:2000;
+   outline: 3px solid #fff;
+   box-shadow:inset 0px 0px 20px 20px white;
+  width:100%;
+	height:100%;
+  }
+  .BigCell5:hover
+  {width:40%;
+	height:calc(100%/3);
+  z-index:2000;
+   outline: 3px solid #fff;
+   box-shadow:inset 0px 0px 20px 20px white;
+  }
+  .miniicon:hover
+  { width:30%;
+	height:30%;
+   z-index:2000;
+  box-shadow:inset 0px 0px 15px 15px #f0f0f0;}
+  
+  /*----------------*/
+    
+  .foricon
+  {
+  position:relative;
+  width:100%;
+  height:100%;
+
+ 
+  background-size:35% 30%;
+  background-repeat:no-repeat;
+  background-position:50% 30%;
+  transform:rotate(-45deg);
+  }
+  .monitor
+  { background-image:url(img/monitor.png);}
+  .heart
+  { background-image:url(img/heart.png);}
+  .users
+  { background-image:url(img/users.png);}
+  .mail
+  { background-image:url(img/mail.png);}
+  .book
+  { background-image:url(img/book.png);}
+  
+  .foricon p
+  {
+  margin:0;
+  padding:0;
+  color:#fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:1.5vw;
+  font-weight:100;
+  text-align:center;
+  padding-top:50%;
+  
+  }
+  .BrandLogo
+  {position:relative;
+ 
+  width:100%;
+  height:30%;
+  top:10%;
+  transform:rotate(-90deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+	
+	
+	 color:#fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:2.8vw;
+  }
+ .BrandLogo span
+ {color:#e83a93;}
+ 
+ /*-----------*/
+ .dropmenu
+ {position:absolute;
+ 
+ bottom:-20px;
+ right:20%;
+ width:40px;
+ height:40px;
+ background-color:none;
+z-index:50;
+   transition:all 2s;
+ }
+ .icon
+ {position:absolute;
+ 
+ width:40px;
+ height:40px;
+ 
+ left:0;
+ bottom:0;
+ background-color:#e83a93;
+transform:rotate(45deg);
+   transition:all 2s;
+ }
+ .icon p
+ {
+ position:absolute;
+ width:100%;
+ height:100%;
+margin:0;
+padding:0;
+transform:rotate(-45deg);
+margin-top:3px;
+margin-left:3px;
+ 
+ 
+ text-align:center;
+font-size:2vw;
+color:#fff;
+ }
+ 
+ 
+ .menu
+ {position:relative;
+ bottom:0px;
+ 
+width:120px;
+ max-height:0;
+ overflow:auto;
+ bottom:-20px;
+left:-40px;
+  border:0px solid red;
+  
+    background-color:#e83a93;
+   transition:all 2s;
+   overflow:hidden;
+   }
+   .dropmenu:hover .icon
+   {  
+ width:80px;
+ height:80px;
+ 
+ left:-20px;
+ bottom:-20px;}
+   
+   .dropmenu:hover .menu
+   { 
+   height:auto;
+   max-height:1000px;
+   transition:all 2s;}
+   
+   .menu ul
+   {
+   padding:0;
+
+	list-style:none;
+   
+   
+   }
+     .menu ul li
+   { 
+   width:100%;
+   height:auto;
+   margin:0;
+   padding-top:10px;
+    text-align:center;
+   list-style:none;
+   }
+     .menu ul li a
+   {   width:100%;
+   height:auto;
+   margin:0;
+   padding:0;
+   
+ 
+    font-family: 'Times New Roman', Times, serif;
+   font-size:23px;
+   Font-weight:100;
+   line-height:20px;
+   
+   color:#fff;
+   color:#fff;
+   transition:all 1s;
+   text-decoration:none;
+  
+   }
+      .menu ul li a:hover
+	  {text-shadow: 3px 3px 6px black, 0 0 1em red; 
+	  }
+ .menu  ul li hr
+ {
+ position:relative;
+  top:3px;
+  padding-top:0;
+  padding-bottom:0;
+  margin:auto;
+ width:80%;
+ }

@@ -1,0 +1,137 @@
+  .block5
+	 {
+	
+	 
+ 
+   position:relative;
+	width:100%;
+	 height:900px;
+	min-height:800px;
+ background-color:#eee;
+ background-image:url(../img/Background2.png);
+	background-size:cover;z-index:0;
+	
+	 }
+	 .ipad
+	 { 
+	 
+	 background-image:url(../img/Ipad.png);
+	 background-repeat:no-repeat;
+	 background-size:contain;
+	 width:29vw;
+	 height:35vw;
+	 position:relative;
+	 top:15vw;
+	 left:10vw;
+	 float:left;
+	 }
+	  .iphone
+	 { background-image:url(../img/iphone.png);
+	 width:24vw;
+	 height:28vw;
+	 background-size:contain;
+	 background-repeat:no-repeat;
+	 position:relative;
+	 top:22vw;
+	 left:calc(10% + 18vw);
+	 }
+	 .block5 .forText
+	 {  width:500px;
+		max-width:75%;
+		height:500px;
+		  
+		position:absolute;
+		 right:10%;
+		 top:200px;
+	 }
+	 
+	 .block5 .forText .infoblock
+	 {
+	 width:100%;
+	 height:160px;
+	 margin:0;
+	 padding:0;
+	 
+	 }
+	.block5 .forText .infoblock .foremblem
+	 {
+	 width:40px;
+	 height:40px;
+	 border:2px solid #fff;
+	 margin-top:30px;
+	 transition:all 1s;
+	 }
+	 
+	.block5 .forText .infoblock .emblem
+	 {
+	 
+	 padding:0;
+	 margin:0;
+	 margin-top:8px;
+	 margin-left:8px;
+	 background-image:url(../img/code_white.png);
+	 }
+	 
+	 .block5 .forText h3
+	 {
+	 color:white; 
+	 padding:0;
+	 margin:0;
+	  
+	 position:absolute;
+	 top:10px;
+	 left:100px;
+	 }
+	  .block5 .forText p
+	 {
+	 color:white; 
+	 padding:0;
+	 margin:0;
+	  
+	 position:absolute;
+	 top:44px;
+	 left:100px;
+	 }
+	 .block5 .forText .infoblock a
+	 { 
+	 width:40px;
+	 height:40px;
+	 z-index:200;
+	 overflow:hidden;
+	 text-indent:100000px;
+	 }
+	  .block5 .forText .infoblock   .foremblem:hover
+	  {background-color:#e83a93;}
+	  
+	  
+	  .block5 .button
+	  {transition:all 2s;
+	  position:absolute;
+	  background-color:#e83a93;
+	  
+	  width:200px;
+	  height:70px;
+	  bottom:120px;
+	  right:32%;
+	  }
+	   .block5 .button a
+	   {
+	    background-color:black;
+ text-decoration:none;
+ Color:#fff;
+ text-align:center;
+ font-size:25px;
+	  transition:all 2s;
+	   
+	   }
+	  .block5 .button:hover
+	  {
+	   box-shadow:inset 0px 0px 10px 10px white;
+	  
+	  
+	  }
+	   .block5 .button:hover a
+	  {
+	 text-shadow: 3px 3px 6px black, 0 0 1em red; 
+	  
+	  }

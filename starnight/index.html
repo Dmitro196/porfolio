@@ -1,0 +1,876 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	
+	
+	<meta charset="utf-8">
+		<title>	заголовок </title>
+		<style>
+ 	 ::-webkit-scrollbar
+	{
+	border-radius: 80px;
+    width: 18px;
+	 height: 10px;
+ 
+	}
+	::-webkit-scrollbar-track
+	{
+	background-color: rgba(255, 255, 237, 0.8);
+	}
+	::-webkit-scrollbar-thumb
+	{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+	 border-radius: 80px;
+    background-color: #123456;/*цвет бегунка*/
+	}
+
+
+
+
+
+
+
+
+
+
+	::-webkit-scrollbar-thumb:hover
+	{
+		border-width: 1px 1px 1px 2px;
+		border-color: #555;
+		 border-radius: 80px;
+		background-color: #777;
+	}
+
+	::-webkit-scrollbar-track 
+	{
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		border-radius: 80px;
+	}
+
+	::-webkit-scrollbar-track:hover
+	{
+		border-left: solid 1px #aaa;
+		background-color: #eee;
+	}
+ 
+/*---------------------------*/
+	body
+	{
+		margin:0;
+		padding:0;
+		font-size:12px;
+	}
+	
+	
+	.base
+	{ 
+		 width:100%;
+		 background-image:url(images/base.png);
+		 height:881px;
+		 position:relative;
+	}
+	.base h1
+	{
+		position:relative;
+		text-align:center;
+		font-size:60px;
+		margin:0 auto;
+		padding-top:195px;
+		color:#ffffff;
+		font-weight:200;
+		letter-spacing:3px;
+	}
+	.base h2
+	{
+		position:relative;
+		max-width:700px;
+		text-align:center;
+		font-size:17px;
+		margin:0 auto;
+		margin-top:45px;
+		color:#ffffff;
+		font-weight:100;
+	}
+	
+	
+	.content1
+	{
+		  	 
+		width:100%;
+		height:887px;
+		background:url(images/shape90.png)no-repeat center center;
+		overflow:hidden;
+		position:relative;
+	}
+	.splitshire
+	{
+		position:relative;
+		width:100%;
+		background:url(images/SplitShire.png) no-repeat center center;
+		background-size:cover;
+		height:622px;
+		position:relative;
+		margin-top:-100px;
+		z-index:30;
+	}
+	.splitshire h3
+	{
+		text-align:center;
+		top:80px;
+		font-size:43px;
+		letter-spacing:1px;
+		color:white;
+		position:relative;
+		font-weight:100;
+	}
+	.content2
+	{
+		height:auto;
+		width:100%;
+		background-color:#ffffff;
+		position:relative;
+		margin-top:0px;
+		overflow:auto;
+	}
+			 
+/*-----------------*/		 
+		 
+	.shape
+	{
+		position:relative;
+		width:50%;
+		height:780px;
+		bottom:0px;
+		overflow:auto;
+		z-index:100;
+	}
+	.shape h2
+	{
+		padding:0;
+		margin:0;
+		width:90%;
+		padding-top:100px;
+		color:white;
+		font-size:50px; 
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight:100; 
+	}
+	.shape h3
+	{
+		padding:0;
+		margin:0;
+		width:90%;	
+		padding-top:40px;
+		color:white;
+		font-size:16px; 
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight:100;
+	}
+	.shapeinfo
+	{
+		width:90%;
+		height:100%;
+		position:relative;
+	}
+	  
+	.playbutton
+	{
+		position:relative;
+		width:99px;
+		height:99px;
+		background-image:url(images/play.png);
+		margin:0 auto;
+		margin-top:80px;
+		transition:all 0.5s;
+	}
+	.playbutton a
+	{
+		position:absolute; height:100%; width:100%; text-indent:1000000px;overflow:hidden;
+	}
+	.playbutton:hover
+	{
+		opacity:0.85;
+		-webkit-filter: drop-shadow(0px 0px 15px #ffffff);
+		filter: drop-shadow(0px 0px 15px #ffffff);
+	}
+	.getstarted
+	{
+		position:relative;
+		width:284px;
+		height:74px;
+		background-image:url(images/get-started.png);
+		margin:0 auto;
+		margin-top:260px;
+		transition:all 0.5s;
+	}
+	.getstarted a
+	{ 	 
+		position:absolute; height:100%;
+		width:100%; 
+		text-indent:1000000px;
+		overflow:hidden;
+	}
+	.getstarted a p
+	{ 	 
+	height:10px;
+	text-indent:1000px;
+		overflow:hidden;
+	}
+	.getstarted:hover
+	{
+		opacity:0.75;
+		box-shadow: 0 0 10px 10px rgba(122,204,200,0.5); /* Параметры тени */
+	}
+	.iphone
+	{
+		width:40%;
+		height:100%;
+		position:absolute;
+		z-index:20;
+		background:url(images/iPad.png);
+		top:80px;
+		right:0px;
+	}
+	
+	.download
+	{
+		position:relative;
+		top:30px;
+		left:20px;
+		width:280px;
+		height:65px;
+		border:3px solid rgba(240,240,240,1);
+		color:white;
+		font-size:17px;
+		letter-spacing:1px;
+		font-weight:100;
+		transition:all 0.5s;
+	}
+	.download:hover
+	{
+		border:3px solid rgba(255,255,255,0.5);
+		box-shadow: 0px 0 10px 10px rgba(255,255,255,0.5); /* Параметры тени */
+	}
+	.download a
+	{
+		position:absolute;
+		height:100%;
+		width:100%;
+		text-decoration:none;
+	}
+	.download a p
+	{
+		text-align:center; 
+		font-size:20px; 
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color:white; 
+		text-decoration:none;
+		letter-spacing:1px;
+	}
+	
+	.photo
+	{
+		width:132px;
+		height:132px;
+		background:url(images/i-rZBcwdR.png);
+		position:relative;
+		margin:0 auto;
+		top:90px;
+		transition:all 2s;
+	}
+	.photo:hover
+	{ 
+		-webkit-filter: drop-shadow(0px 0px 15px #ffffff);
+		filter: drop-shadow(0px 0px 15px #ffffff);
+	}
+	
+	.tablets
+	{
+		position:relative;
+		width:93px;
+		height:14px;
+		background:url(images/nippels.png);
+		margin:0 auto;
+		top:160px;
+	}
+
+	.content3
+	{
+		min-height:825px;
+		height:auto;
+		width:100%;
+		background-color:#f6f6f4;
+		position:relative;
+		overflow:auto;
+	}
+	.footer
+	{
+		height:690px;
+		width:100%;
+		background-color:#7accc8;
+		position:relative;
+	}
+	.footer h3
+	{
+		padding-top:80px;
+		color:white;
+		font-size:15px; 
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight:100;
+		letter-spacing:4.5px;
+		position:relative;
+		text-align:center;
+	}
+	.footer ul
+	{
+		float:right;
+		margin-right:10%;
+		width:100px;
+	}
+	.footer ul li 
+	{
+		list-style:none;
+		float:left;
+		width:90px;
+	}
+	.footer ul li a
+	{
+		font-size:16px; 
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		font-weight:100;
+		text-decoration:none;
+		line-height:40px;
+		color:#ffffff;
+	}
+	.footer ul li a:hover
+	{
+	color:#f1f191;
+	}
+	.footercontent
+	{
+		height:auto;
+		overflow:auto;
+		width:100%;
+		position:relative;
+		padding-top:75px;
+	}
+	.footercontent h2 
+	{
+		color:white;
+		float:left;
+		font-size:14px;
+		font-weight:100;
+		letter-spacing:1px;
+	}
+	.shape91
+	{
+		height:62px;
+		width:60px;
+		background:url(images/shape91.png);
+		position:relative;
+		margin:auto;
+		margin-top:5px;
+	}
+	
+	
+	.raw2
+	{
+		width:220px;
+	}
+	.raw4
+	{ 
+		width:400px;
+	}
+	.leftish
+	{
+		margin-left:10%;
+	}
+	.forTextBig
+	{
+		width:80%;
+		height:auto;
+		overflow:auto;
+	}
+	.textcontainer
+	{
+		width:400px;
+		float:left;
+		margin-top:80px;
+	}
+	.textcontainer h2
+	{
+		margin:0;
+		padding:0;
+		color:#9197a8;
+		font-size:20px;
+		font-weight:600;
+	}
+	.textcontainer p
+	{
+		margin:0;
+		padding:0;
+		margin-top:20px;
+		color:#9197a8;
+		font-size:19px;
+		font-weight:100;
+	}
+	.trydemo
+	{
+		width:180px;
+		height:65px;
+		color:white;
+		font-size:18px;
+		text-align:center;
+		line-height:60px;
+		background-color:#f69679;
+		position:relative;
+		margin:0 auto;
+		margin-top:60px;
+		margin-bottom:60px;
+		transition:all 1s;
+	}
+	.trydemo:hover
+	{
+		background-color:#ff967f;
+		box-shadow: 0 0 10px 10px rgba(246,152,120,0.5); /* Параметры тени */
+	}
+	.trydemo a
+	{
+		color:#fff;
+		text-decoration:none;
+	}
+	.colordemonstration
+	{
+		width:260px;
+		height:395px;
+		background-color:white;
+		position:relative;
+		margin:0;
+		padding:0;
+		margin-top:100px;
+	} 
+	 
+	.colordemonstration h3
+	{
+		position:absolute;
+		top:75%;
+		left:10%;
+		Font-size:15px;
+		color:#7a8387;
+	}
+	.colordemonstration p
+	{
+		position:absolute;
+		font-weight:200;
+		width:260px;
+		margin-top:30px;
+		Font-size:15px;
+		color:#7a8387;
+	}
+	.colorleft
+	{
+		width:100%;
+		height:70%;
+		background-color:#f69679;
+	}
+	.colorright
+	{
+		width:100%;
+		height:70%;
+		background-color:#e8b968;
+	}
+	.italic
+	{
+		Font-style:italic;
+	}
+    
+	.information
+	{
+		position:relative;
+		max-width:350px;
+		height:490px;
+		float:right;
+		margin-right:5%;
+		margin-top:50px;
+	}
+	.information h2
+	{
+		Font-size:40px;
+		color:#abbcc3;
+	}
+	.information p
+	{
+		Font-size:14px;
+		color:#abbcc3;
+	}
+	.leftsquare
+	{
+		float:left;
+		margin-left:5%;
+	}
+	.rightsquare
+	{ 
+		float:left;
+		margin-left:10%;
+	}
+	
+	.arrows
+	{
+		height:17px;
+		width:31px;
+		background:url(images/arrows.png);
+		position: absolute;
+		bottom: 0px;
+		right:0px;
+	}
+	.textcontainerleft
+	{
+		float:right;
+	}
+	.textcontainerright
+	{
+		float:left;
+	}
+	.right0
+	{
+		margin-right:0;
+		padding-right:0;
+		margin-left:5%;
+	}
+  /*--------------------------------*/
+  
+	@media screen and (max-width:800px)
+	{
+		.shape h2
+		{
+			padding-top:10px;
+		}
+		.shape h3
+		{
+			font-size:18px;
+		}
+	}
+	@media screen and (max-width:700px)
+	{
+		.shape h2
+		{
+			padding-top:80px;
+		}
+		.content3
+		{
+			overflow:hidden;
+		}
+		.iphone
+		{
+			display:none;
+		}
+		.shape
+		{
+			width:90%;
+		}
+		.textcontainer
+		{
+			width:100%;
+		}
+		.shape h2
+		{
+			line-height:50px;
+		}
+		.download
+		{ 
+			width:85%;
+			max-width:300px;
+			border-radius:0px;
+			box-shadow:inset 0px 0 2px 2px rgba(255,240,255,0.5);
+			margin:0 auto;
+		}
+		.download:hover
+		{
+			box-shadow:inset 0px 0 10px 10px rgba(255,255,255,0.5); /* Параметры тени */
+		}
+	}
+	@media screen and (max-width:500px)
+	{
+		.download
+		{
+			margin-left:0;
+		}
+		.information
+		{
+			position:relative;
+			margin:0;
+			padding:0;
+			width:100%;
+		}
+		.information h2
+		{
+			padding-left:5%;
+		}
+		.information p
+		{
+			margin-left:5%;
+			font-size:22px;
+			letter-spacing:1.75px;
+		}
+		.raw4
+		{
+			width:80%;
+		}
+		.footer
+		{
+			overflow:auto;
+			height:auto;
+		}
+		.footercontent
+		{
+			height:auto;
+			overflow:hidden;
+		}
+		.iphone
+		{
+			display:none;
+		}
+		.shape
+		{
+			width:100%;
+		}
+		.footercontent ul
+		{ 
+			margin-right:170px;
+		}
+	}
+	@media screen and (max-width:1150px)
+	{
+		.information
+		{
+			float:none;
+			margin: 0 auto;
+			position:relative;
+			margin-top:550px;
+			height:300px;
+			max-width:none;
+			width:600px;
+		}
+		.rightsquare
+			{
+				float:right;
+				margin-right:15%; 
+			}
+		.leftsquare
+		{
+			float:left; 
+			margin-left:15%;
+		}
+	}
+	@media screen and (max-width:1000px)
+	{
+		.information h2
+			{ 
+				font-size:3em;
+			}
+		.information p
+		{ 
+			font-size:2em;
+		}
+		.information
+		{
+			margin:0 auto;
+			width:90%;
+		}
+		.rightsquare
+		{
+			float:none;
+			position:relative;
+			margin:0 auto;
+			margin-top:20px;
+		}
+		.leftsquare
+		{ 
+			float:none;
+			position:relative;
+			margin:0 auto;
+		}
+	}
+	@media screen and (max-width:600px)
+	{
+		.information 
+		{
+			overflow:auto;
+			height:auto;
+		}
+	}
+ 
+ 
+		</style>
+		
+		
+		
+<link rel="stylesheet" href="css/jquery.h5form-2.13.1.css">
+ 
+ 
+
+
+	</head>
+	<body>
+		 <div class="base">
+			<h1>
+				Starnight App
+			</h1>
+			<h2>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+				et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+			</h2>
+		 
+		 <div class="playbutton"> <a href="#">play</a></div>
+			 
+			 <div class="getstarted">  <a href="../test/index.html"><p>get started</p></a> </div> 
+		</div> 
+		<div class="content1">
+			<div class="iphone">
+				</div>
+				<div class="shape leftish">
+					
+						<h2>
+						See the sky even better than your own eyes can 
+						</h2>
+						
+						<h3>
+						Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					 		</h3>
+						
+						<h3>
+						Auae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</h3>
+						<div class="download">
+						 
+						 <a href="#"><p>Download Now</p></a>
+						</div>
+						
+						
+				</div>
+		</div>
+	 <div class="splitshire">
+					<div class="photo">
+					
+					</div>
+					<h3>
+					I couldnt possibly use my own eyes to look at the stars, thansk <br>Starnught App...
+					</h3>
+					
+					<div class="tablets">
+					
+					</div>
+		</div> 
+	<div class="content2">
+				<div class="forTextBig leftish">
+			<div class="textcontainer textcontainerleft">	
+					<h2>
+					 So dreamy
+					</h2>
+					<p>
+					Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					</p>
+				</div>
+					<div class="textcontainer  textcontainerright">	
+					<h2>
+					more buzz words
+					</h2>
+					<p>
+					Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					</p>
+					</div>
+				<div class="textcontainer textcontainerleft">	
+					<h2>
+					 apple store
+					</h2>
+					<p>
+					Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					</p>
+				</div>
+				<div class="textcontainer  textcontainerright">	
+					<h2>
+					 Extra startup juice
+					</h2>
+					<p>
+					Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+					</p>
+				</div>
+				</div>
+				 <div class="trydemo">
+		<a href="#">Try Demo</a>
+				</div> 
+		</div>
+				 <div class="content3">
+					<div class="colordemonstration  leftsquare" >
+					<div class="colorleft">
+					 
+					</div>
+						 <h3>
+						 Extra startup juice
+						 <h3>
+						 
+						 <p>
+						 Added feature
+						 </p>
+					</div>
+					<div class="colordemonstration rightsquare">
+					<div class="colorright">
+					</div>
+						<h3>
+						So thirsty
+						 <h3>
+						 
+						 <p class="italic">
+						Extra nice UI comes with the app
+						 </p>
+					</div>
+					<div class="information">
+						<h2>
+						So flat you`ll want to give it some shadows
+						</h2>
+						
+						<p>
+						Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+						</p>
+					
+					
+						<div class="arrows">
+						
+						</div>
+					
+					
+					</div>
+				</div> 
+			 <div class="footer">
+				<div class="footercontent">
+					<h2 class="raw4 leftish">
+					Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+					</h2>
+					<h2 class="raw2 leftish">
+					aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+					</h2>
+						<ul>
+							<li><a href="#">List one </a></li>
+							<li><a href="#">Page two </a></li>
+							<li><a href="#">Design </a></li>
+						
+							<li><a href="#">Work </a></li>
+							<li><a href="#">kontakt me </a></li>
+						 </ul>
+					
+					
+				</div>
+					<div class="shape91">
+					
+					</div>
+					<h3>
+					Design by www.blazrobar.com
+					</h3>
+			</div> 
+		
+		
+		
+		
+	</body>
+</html>

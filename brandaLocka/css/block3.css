@@ -1,0 +1,213 @@
+	 .block3
+	 {
+	
+	 
+ 
+   position:relative;
+	width:100%;
+	height:auto;
+	min-height:800px;
+ background-color:#eee;
+	background-size:cover;z-index:0;
+	
+	 }
+	
+	 .block3 h2
+	 { margin:0;
+	  padding-top:120px;
+	 text-align:center;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size:48px;
+	 color:#777777;
+	 
+	 }
+	  .block3 h3
+	 { margin:0;
+ padding-top:50px;
+	 text-align:center;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size:24px;
+	 margin-left:5%;
+	margin-right:5%;
+	 color:#777777;
+	 }
+	 .block3 span
+	 {
+	 color:#e83a93;
+	 }
+	  .block3 p
+	 { margin:0;
+	padding-top:50px;
+	 text-align:center;
+	  font-family: 'Times New Roman', Times, serif;
+	  font-size:24px;
+	 margin-left:10%;
+ 
+	 color:#777777;
+	 }
+	  
+	 
+	  .sliderclass
+	 {
+	 
+	width:500px;
+   height:400px;
+   margin:5px;
+   margin-top:50px;
+   margin-left:5%;
+      margin-right:10%;
+   float:right;
+   
+	 } 
+	   .block3 p br
+	   {line-height:100px;}
+	   
+	   .lernMore
+	   {width:200px;
+   height:70px;
+   margin-top:40px;
+   background-color:#e83a93;
+	margin-left:10%;
+  transition:all 1s;
+   
+   }
+   .lernMore  a{   text-decoration:none;}
+   .lernMore:hover
+   {
+    box-shadow:inset 0 0 20px rgba(255,255,255,0.7); /* ????????? ???? */
+   
+   }
+   
+   
+      .lernMore:hover  a p{  text-shadow: 3px 3px 6px black, 0 0 1em red; }
+   .lernMore  a p
+   { color:#fff;
+   font-size:24px;
+   position:relative;
+   margin-left:0;
+   padding-top:20px;
+   font-weight:100;
+transition:all 1s;
+   }
+   #slide1
+   {
+   width:100%;
+   height:100%;
+   background-image:url(img/001.jpg);
+   background-size:contain;
+   background-repeat:no-repeat;
+ 
+   }
+    #slide2
+   {
+   width:100%;
+   height:100%;
+   background-image:url(img/002.jpg);
+   background-size:contain;
+   background-repeat:no-repeat;
+ 
+   }
+    #slide3
+   {
+   width:100%;
+   height:100%;
+   background-image:url(img/003.jpg);
+   background-size:contain;
+   background-repeat:no-repeat;
+ 
+   }
+    #slide4
+   {
+   width:100%;
+   height:100%;
+   background-image:url(img/004.jpg);
+   background-size:contain;
+   background-repeat:no-repeat;
+ 
+   }
+   
+   
+   
+   
+   #slider-wrap{ /* Оболочка слайдера и кнопок */
+	width:100%; 
+	}
+#slider{ /* Оболочка слайдера */
+	width:100%;
+	height:360px;
+	overflow: hidden;
+	 
+	position:relative;}
+.slide{ /* Слайд */
+	width:100%;
+	height:100%;
+	}
+.sli-links{ /* Кнопки смены слайдов */
+	 
+	text-align:center;}
+.sli-links .control-slide{
+ 
+	display:inline-block;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	text-indent:-9999px;
+	background-color:#aaa;
+	transform:rotate(45deg);
+	margin-right:10px;
+	margin-left:10px;
+	margin-top:10px;
+	}
+.sli-links .control-slide:hover{
+	cursor:pointer;
+	background-position:center center;}
+.sli-links .control-slide.active{
+	background-color:#e83a93;} 
+#prewbutton, #nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
+	display:block;
+	width:60px;
+	height:60px;
+	position:absolute;
+	top:0;
+	overflow:hidden;
+	text-indent:-999px;
+		background-color:#e83a93;
+		
+ margin-top:25%;
+	opacity:0.2;
+	z-index:3;
+	 
+	
+	
+	}
+	 #prewbutton .arrow
+	 {
+	 width:40px;
+	 height:40px;
+	 border-bottom:3px solid white;
+	 border-left:3px solid white;
+	 position:absolute;
+	 bottom:10px;
+	 left:10px;
+ 
+	 }
+
+	 #nextbutton .arrow
+	 {
+	 width:40px;
+	 height:40px;
+	 border-bottom:3px solid white;
+	 border-right:3px solid white;
+	 position:absolute;
+	 bottom:10px;
+	 right:10px;
+	 
+	 }
+	
+#prewbutton{left:10px;transform:rotate(45deg); transition:all 1s;}
+#nextbutton{
+	right:10px;
+	 transform:rotate(-45deg);
+	 transition:all 1s;}
+#prewbutton:hover, #nextbutton:hover{
+	opacity:1;}

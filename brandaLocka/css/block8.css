@@ -1,0 +1,162 @@
+ .block8
+	 {
+	
+	 
+  z-index:10;
+   position:relative;
+	width:100%;
+	height:auto;
+	min-height:600px;
+ background-color:#fff;
+ 
+	background-size:cover;z-index:0;
+	
+	 }
+	 
+	 .block8 h3
+	 {
+	 padding:0;
+	 margin:0;
+	 padding-top:80px;
+	 color:#777;
+	 font-size:48px;
+	 font-family: 'Times New Roman', Times, serif;
+	 text-align:center;
+	 
+	 }
+	 .block8 span
+	 {
+	  color:#e83a93;
+	 }
+	 .block8 .forScills
+	 {
+	 width:95%;
+	 margin-left:5%;
+	 margin-top:50px;
+		height:auto;
+		overflow:auto;
+ 
+	 }
+	  .block8 .forScills .Scills
+	 {
+	 width:14vw;
+	 margin-right:3.5vw;
+		height:auto;
+		overflow:auto;
+	  
+	 float:left;
+ 
+	 }
+	 .circle
+	 {
+	 width:calc(13vw - 6px);
+	 height:calc(13vw - 6px);
+	 top:20px;
+	 border:6px solid #e83a93;
+
+	 position:relative;
+	 border-radius:50%;
+	 
+	 
+	 }
+	  .forcirclebad
+	 {
+	 width:calc(13vw - 6px);
+	 height:calc(13vw - 6px);
+	 top:20px;
+	 
+
+	 position:relative;
+	
+	 background-color:blue;
+	 
+	 }
+	 
+	 .progress
+	 {
+	 margin-top:20px;
+	 
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 .circle p 
+	 {
+	 
+	 position:relative;
+	 text-align:center;
+	 color:#cfcfcf;
+	 font-size:4vw;
+	 margin-left:10px;
+	 margin-top:4vw;
+	 }
+		 .block8 .forScills .description
+		 {position:relative;
+	 text-align:center;
+	 color:#cfcfcf;
+	 font-size:2vw;
+	 
+	 padding-top:30px;
+	 }
+	 
+	 .block8 .background3
+	 {
+	 width:100%;
+	 height:500px;
+	 position:relative;
+	 background-image:url(../img/background3.png);
+	 background-size:cover;
+	 
+	 margin-top:250px;
+	  bottom:150px;
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 	.myCanvas
+	{ 
+	width:100%;
+	 
+	
+	}
+	
+	.container
+	{
+	width:14vw;
+	height:14vw;
+ 
+	position:relative;
+	margin:0 auto;
+	overflow:none;
+ 
+	
+	}
+   .IDelm{
+   font-size:2vw;
+   color:#eee;
+   z-index:100;
+   position:absolute;
+   height:100%;
+   width:100%;
+   top:0;
+  
+   
+   }  
+   .IDelm p
+   {
+   margin:0 auto;
+   padding:0;
+   text-align:center;
+   color:#eee;
+   margin-top:30%;
+   font-size:5vw;
+   }
